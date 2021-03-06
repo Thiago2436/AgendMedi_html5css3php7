@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<link rel="stylesheet" href="estilo.css"/>
+  <meta charset="UTF-8"/>
+  <title>Form </title>
+</head>
+<body>
+  
+
+<div>
+     <!-- Inicio do formulario -->
+      <form method="POST" action="cad.php">
+        CPF <input type="number" name="CPF">        
+        <br>
+        Nome <input type="text" step="0.01" name="nome">
+        <br>  
+        Nome do Medico <input type="text" step="0.01" name="NomeMed">
+        <br> 
+        Especialidade : <select name="Especialidade do Medico">
+            <option value = "0">Escolha Uma</option>
+            <option value = "1">Cardiologista</option>
+            <option value = "2">Vascular</option>
+            <option value = "3">Pediatra</option>
+            <option value = "4">Dermatologista</option>
+        </select> 
+        <br>
+        Convenio : <select name="Convenio" required>
+          <option value = "0">Escolha Uma</option>
+          <option value = "1">Particular</option>
+          <option value = "2">Unimed</option>
+          <option value = "3">Prever</option>
+        </select>
+        <br>
+        Valor <input type="text" name="ValorCons" required>
+        Data <input type="date" name="date">
+        <br>
+        Horario<input type="time" name="horario">
+        <br>
+        <input type="submit" value="Verificar"/>
+        <input type="reset" value="Limpar Campos"/>
+        <br><br> 
+    </form>
+ </div>
+</body>
+</html>
