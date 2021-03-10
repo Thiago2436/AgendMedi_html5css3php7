@@ -17,7 +17,7 @@
   $Hora=$_POST['hora'];
 
   echo " Resumo da Consulta ";
-  echo "Nome : ".$nome."<br>";
+  echo " Nome : ".$nome."<br>";
   echo " Cpf : ".$cpf."<br>";
   echo " Nome do Medico : ".$nomemed."<br>";
   echo " Especialidade : ".$esp."<br>"; 
@@ -25,6 +25,7 @@
   echo " Data : ".$Data."<br>";
   echo " Hora : ".$Hora."<br>";
   if($Conv == 'Unimed')    {
+    
     $Desc = ($Valor/ 1.5);
     echo " Valor Com desconto Unimed 30% : R$ ".$Desc;
           }

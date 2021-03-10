@@ -2,8 +2,8 @@ html {
     font: 15pt Arial;
 }
 body {
-    background: url("wallpaper-php.jpeg") no-repeat top center fixed;
-    background-size: contain ;
+    background: url("wallpaper-php.jpg") no-repeat top center fixed;
+    background-size: cover ;
 }
 
 div::before {
